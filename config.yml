@@ -1,0 +1,49 @@
+baseURL: ""
+languageCode: en-us
+title: Coco Yang's Website
+theme: PaperMod
+
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: About
+      url: /about
+      weight: 2
+    - name: Portfolio
+      url: /projects
+      weight: 3
+    # - name: Projects
+    #   url: /projects
+    #   weight: 3
+    # - name: Articles
+    #   url: /articles
+    #   weight: 4
+
+params:
+  profileMode:
+    enabled: true
+    title: "Coco Yang"
+    subtitle: "👷 Digital Marketer | 🪙 Business Finance | 📚 NYU Shanghai"
+    imageUrl: "img/ll_profile_pic.jpeg"
+    imageTitle: "Profile Picture"
+    imageWidth: 200
+    imageHeight: 200
+    buttons:
+      - name: Contact Me
+        url: "/contact"
+      - name: Github
+        url: "https://github.com/larry-lime"
+
+  socialIcons:
+    - name: email
+      url: "mailto:wy2116@nyu.edu" #Ex: mailto:wy2116@nyu.edu
+    # - name: twitter
+    #   url: "" #Ex: https://twitter.com/lawrence_lim__
+    - name: github
+      url: "https://github.com/larry-lime"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/lawrence-rx-lim/"
+    # - name: telegram
+    #   url: "https://t.me/larrylime4132"
